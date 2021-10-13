@@ -12,7 +12,7 @@ public class Ejercicio15 {
         } else if (opcion >=2 && opcion <=4){
             System.out.println("No");
         } else {
-            System.out.println("Opción incorrecta");
+            System.out.println("Opción incorrecta"); //hecho en clase
         }
     }
 }
