@@ -22,7 +22,7 @@ public class Ejercicio10 {
             System.out.println(b +" "+ c +" "+ a);
         } else if (c > a && a > b) {
             System.out.println(c +" "+ a +" "+ b);
-        } else if (c > b && b > a) {
+        } else {
             System.out.println(c +" "+ b +" "+ a);
         }
     }
