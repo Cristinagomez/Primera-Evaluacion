@@ -14,7 +14,7 @@ public class Ejercicio19 {
             case 5 -> System.out.println("Viernes");
             case 6 -> System.out.println("Sábado");
             case 7 -> System.out.println("Domingo");
-            case 8 -> System.out.println("Ese día no existe");
+            case 8 -> System.out.println("No existe día de la semana con ese número");
         }
     }
 }

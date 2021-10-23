@@ -2,7 +2,7 @@ package estructurasDeControl;
 
 import java.util.Scanner;
 
-public class Ejercicio15 {
+public class Ejercicio15a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("¿Qué lenguaje estás estudiando?\n1. Java\n2. Kotlin\n3. Scala\n4. Python");
