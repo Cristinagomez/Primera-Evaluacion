@@ -26,20 +26,20 @@ public class Ejercicio13 {
 
         int b20 = resto / 20;
         resto = resto % 20;
-        System.out.println("Billetes de 50 " + b20);
+        System.out.println("Billetes de 20 " + b20);
 
         int b10 = resto / 10;
         resto = resto % 10;
-        System.out.println("Billetes de 50 " + b10);
+        System.out.println("Billetes de 10 " + b10);
 
         int b5 = resto / 5;
         resto = resto % 5;
-        System.out.println("Billetes de 50 " + b5);
+        System.out.println("Billetes de 5 " + b5);
 
         int m2 = resto / 2;
         resto = resto % 2;
-        System.out.println("Monedas de 2€" + m2);
-        System.out.println("Monedas de 2€" + resto);
+        System.out.println("Monedas de 2€ " + m2);
+        System.out.println("Monedas de 1€ " + resto);
 
 
     }
