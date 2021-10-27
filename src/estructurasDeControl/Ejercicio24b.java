@@ -2,7 +2,7 @@ package estructurasDeControl;
 
 import java.util.Scanner;
 
-public class Ejercicio24 {
+public class Ejercicio24b {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Número");
@@ -10,9 +10,10 @@ public class Ejercicio24 {
         System.out.println("Número");
         int b = sc.nextInt();
         int suma = 0;
-        for (int i = a; i <= b ; i++) {
-            suma = suma + i;
+        while (a <= b) {
+            suma = suma + a;
+            a++;
         }
-        System.out.println("Resultado: " + suma);
+        System.out.println(suma);
     }
 }
