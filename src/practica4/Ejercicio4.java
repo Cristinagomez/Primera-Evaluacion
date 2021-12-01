@@ -20,7 +20,7 @@ public class Ejercicio4 {
                 double num1 = sc.nextDouble();
                 System.out.println("Introduce un número");
                 double num2 = sc.nextDouble();
-                System.out.println("¿Desea realizar otra operación?");
+                System.out.println("¿Desea realizar otra operación?(true o false)");
                 seguir = sc.nextBoolean();
                 switch (operacion) {
                     case 1:
